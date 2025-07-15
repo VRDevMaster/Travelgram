@@ -32,3 +32,13 @@ body{
   color: var(--text-color-secondary);
   background: var(--shape-transparency);
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: var(--brand-color);
+  text-decoration: underline;
+}
